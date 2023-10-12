@@ -28,3 +28,15 @@ First, we need to implement MQTT controller to Publish and Subcribe to Adafruit 
 call startMQTT() which create an instance of MQTTHelper an override method of this class with specific purpose. In Main Activity onCreate() function, we call startMQTT() to start things, code below show the work. Next, The application need frame to display source from camera, the application was implemented this frame in a fragment view, which can be switch by button. And GraphView to log people detected by AI:
 
 <p align="center"> <img width = "40%" height = "40%" src="images/fragment.png"/> <img width = "20%" height = "20%" src="images/graph.jpg"/> </p> 
+# Conclusion and future plan
+In general, my project has been built and implemented to system well. In this system, modules like human detection, tracking object, sending and receiving data in Adafruit-IO which I get executing is fine on the whole things. The results are
+relatively positive. However, there are a few features as well as limitations of them that we would like to improve in the future:
+
+• Improvement model accuracy: In this project, our model is available with a lot
+of classes, it lead to some misunderstand detections if objects similarly with
+other objects.
+
+• Improvement the performace: As you can see that, when we run program
+because of AI model, so it causes slow loading program, so that improving
+speed of performance can be better for this project.
+LOGIC DESIGN PROJECT | Academic year 2022 – 2023 Page 22/23
