@@ -39,4 +39,3 @@ other objects.
 • Improvement the performace: As you can see that, when we run program
 because of AI model, so it causes slow loading program, so that improving
 speed of performance can be better for this project.
-LOGIC DESIGN PROJECT | Academic year 2022 – 2023 Page 22/23
